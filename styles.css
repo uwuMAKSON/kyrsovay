@@ -1,8 +1,64 @@
-.header{
-    background-image: url(./Group\ 61.png);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    
+    font-family: 'Roboto', sans-serif;
+
+  margin: 0;
 }
-.D-Express{
-    font-size: 22px;
+.header {
+  background-image: url(./back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 679px;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+    position: relative;
+    width: 111.93px;
+    height: 22.46px;
+    left: 105.73px;
+    top: 37.01px;
     color: white;
+    font-weight: bold;
+}
+nav  {
+    position: relative;
+  display: inline-block;
+   left: 350px;
+
+   
+  
+
+}
+.header2 {
+  display: flex;
+
+
+
+}
+ul a {
+    color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 38px;
+    
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 650px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
+    font-size: 16px;
+
+    
+    background: #1BC768;
+    border-radius: 50px;
 }
