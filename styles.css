@@ -30,6 +30,10 @@ nav a {
   text-decoration: none;
   padding: 30px;
 }
+nav a:hover{
+  color: rgb(7, 252, 7);
+  transition: .3s;
+}
 .nav {
   padding-left: 180px;
 }
@@ -47,15 +51,60 @@ nav a {
   align-items: center;
   font-weight: 500;
   font-size: 16px;
-
   background: #1bc768;
   border-radius: 50px;
 }
-.h1{
+.link:hover{
+  color: blue;
+  transition: .3s;
+}
+.h1 {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 27px;
   color: white;
   line-height: 80px;
-  padding-left: 95px;
-  padding-top: 20px;
+  margin-left: 95px;
+  margin-top: 60px;
+}
+.paragraf {
+  color: white;
+  font-size: 19px;
+  line-height: 35px;
+  margin-left: 95px;
+  padding-top: -20px;
+}
+.buttonn {
+  margin-left: 85px;
+}
+.butt {
+  color: white;
+  background: linear-gradient(
+      96.22deg,
+      #0a4cd100 -0.66%,
+      rgba(4, 59, 170, 0) 44.05%,
+      rgba(5, 83, 238, 0) 100%
+    ),
+    url(image.png);
+  height: 45px;
+  width: 107px;
+  border-radius: 50px;
+  border: none;
+  margin: 10px;
+  font-size: 18px;
+  border: 1px solid white;
+}
+.butt:hover {
+  background-color: white;
+  color: blue;
+  transition: .3s;
+} 
+.button2 {
+  margin-left: 95px;
+  margin-top: 50px;
+}
+button {
+  width: 515px;
+  height: 45px;
+  border-radius: 70px;
+  border: none;
 }
