@@ -138,17 +138,20 @@ input {
   bottom: 15.6%;
 }
 
-/* main */
+ /* main */ 
 .mainimg {
   margin-top: 70px;
   margin-bottom: 150px;
   text-align: center;
 }
+.h1_2{
+  color: #043CAA;
+}
 .main2 {
   position: relative;
   max-width: 80%;
   margin: 0 auto;
-}
+} 
 .key {
   display: block;
   margin: auto;
@@ -158,16 +161,24 @@ input {
   color: #043caa;
   margin-top: 130px;
 }
+ul{
+   list-style-image: url(./Exclude.png); 
+}
 .p3 {
   color: #333333;
   font-size: 18px;
   font-weight: 400;
 } 
 .Get{
+  margin-top: 40px;
   color: #1BC768;
 border: 1px solid #1BC768;
 width: 200px;
 height: 40px;
 border-radius: 50px;
 
+}
+.Get_p{
+ margin: 0 ;
+ padding: 7px 10px 10px 10px;
 }
