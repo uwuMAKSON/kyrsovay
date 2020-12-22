@@ -163,6 +163,8 @@ input {
 }
 ul{
    list-style-image: url(./Exclude.png); 
+   margin: 0 ;
+   padding: 0;
 }
 .p3 {
   color: #333333;
