@@ -105,7 +105,7 @@ nav a:hover {
   width: 10px;
   height: 5px;
 }
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   padding-left: 17%;
 }
 input {
@@ -126,16 +126,16 @@ input {
   left: 400px;
   border-radius: 0px 50px 50px 0px;
   padding: 16px;
-  background: #1BC768;
+  background: #1bc768;
   width: 127px;
   color: white;
 }
 .header_image {
-position: relative;
+  position: relative;
 
-right: -154.63%;
-top: -77px;
-bottom: 15.6%;
+  right: -154.63%;
+  top: -77px;
+  bottom: 15.6%;
 }
 
 /* main */
@@ -148,19 +148,18 @@ bottom: 15.6%;
   position: relative;
   max-width: 80%;
   margin: 0 auto;
-  background-color: rgb(146, 145, 138)
-  ;
 }
 .key {
   display: block;
   margin: auto;
 }
-.h3{
+.h3 {
   font-size: 22px;
-  color: #043CAA;
+  color: #043caa;
   margin-top: 130px;
 }
-.p3{
+.p3 {
   color: #333333;
   font-size: 18px;
+  font-weight: 400;
 }
