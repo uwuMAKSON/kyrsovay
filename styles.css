@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   margin: 0;
 }
 .header {
@@ -162,4 +162,12 @@ input {
   color: #333333;
   font-size: 18px;
   font-weight: 400;
+} 
+.Get{
+  color: #1BC768;
+border: 1px solid #1BC768;
+width: 200px;
+height: 40px;
+border-radius: 50px;
+
 }
