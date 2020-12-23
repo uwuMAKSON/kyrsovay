@@ -144,6 +144,21 @@ input {
   margin-bottom: 150px;
   text-align: center;
 }
+.blue{
+  width: 55px;
+  height: 5px;
+  background-color:  #043CAA;
+  border-radius: 50px;
+  margin-left: 46%;
+}
+.green{
+  width: 51px;
+  height: 5px;
+  background-color:  #1BC768;
+  border-radius: 50px;
+  margin-left: 50%;
+  margin-top: -5px;
+}
 .h1_2{
   color: #043CAA;
 }
@@ -165,6 +180,7 @@ ul{
    list-style-image: url(./Exclude.png); 
    margin: 0 ;
    padding: 0;
+   margin-left: 20px;
 }
 .p3 {
   color: #333333;
@@ -183,4 +199,11 @@ border-radius: 50px;
 .Get_p{
  margin: 0 ;
  padding: 7px 10px 10px 10px;
+ font-size: 18px;
+ text-align: center;
+ padding-top: 10px;
+}
+.img37{
+  float: right;
+  margin-top: -290px;
 }
