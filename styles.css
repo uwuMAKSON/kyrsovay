@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
-  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Roboto", sans-serif;  */
   margin: 0;
 }
 .header {
@@ -132,78 +132,230 @@ input {
 }
 .header_image {
   position: relative;
-
   right: -154.63%;
   top: -77px;
   bottom: 15.6%;
 }
 
- /* main */ 
+/* main */
 .mainimg {
   margin-top: 70px;
   margin-bottom: 150px;
   text-align: center;
 }
-.blue{
+.blue {
   width: 55px;
   height: 5px;
-  background-color:  #043CAA;
+  background-color: #043caa;
   border-radius: 50px;
   margin-left: 46%;
 }
-.green{
+.green {
   width: 51px;
   height: 5px;
-  background-color:  #1BC768;
+  background-color: #1bc768;
   border-radius: 50px;
   margin-left: 50%;
   margin-top: -5px;
 }
-.h1_2{
-  color: #043CAA;
+.h1_2 {
+  color: #043caa;
 }
 .main2 {
   position: relative;
-  max-width: 80%;
+  height: 1500px;
+  max-width: 75%;
   margin: 0 auto;
-} 
+}
 .key {
   display: block;
   margin: auto;
 }
+.Key_h1 {
+  color: #043caa;
+  text-align: center;
+}
+.blue {
+  width: 55px;
+  height: 5px;
+  background-color: #043caa;
+  border-radius: 50px;
+  margin-left: 46%;
+}
+.green {
+  width: 51px;
+  height: 5px;
+  background-color: #1bc768;
+  border-radius: 50px;
+  margin-left: 50%;
+  margin-top: -5px;
+}
+
 .h3 {
   font-size: 22px;
   color: #043caa;
   margin-top: 130px;
 }
-ul{
-   list-style-image: url(./Exclude.png); 
-   margin: 0 ;
-   padding: 0;
-   margin-left: 20px;
+.ul {
+  list-style-image: url(./Exclude.png);
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
 }
 .p3 {
   color: #333333;
   font-size: 18px;
   font-weight: 400;
-} 
-.Get{
+}
+.Get {
   margin-top: 40px;
-  color: #1BC768;
-border: 1px solid #1BC768;
-width: 200px;
-height: 40px;
-border-radius: 50px;
-
+  color: #1bc768;
+  border: 1px solid #1bc768;
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
 }
-.Get_p{
- margin: 0 ;
- padding: 7px 10px 10px 10px;
- font-size: 18px;
- text-align: center;
- padding-top: 10px;
+.Get_p {
+  margin: 0;
+  padding: 7px 10px 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
 }
-.img37{
+.img_36 {
   float: right;
   margin-top: -290px;
+}
+.img_3 {
+  margin-top: 90px;
+}
+.img789 {
+  padding: 50px;
+}
+.img37 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+h4 {
+  font-size: 22px;
+  color: #043caa;
+  margin: 10% 0 0 0;
+  margin-bottom: 40px;
+}
+.byke {
+  padding-top: 100px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+h5 {
+  font-size: 22px;
+  color: #043caa;
+  margin: 10% 0 0 0;
+  margin-bottom: 40px;
+}
+.bykee {
+  margin-top: 200px;
+}
+.img39 {
+  float: right;
+  margin-top: -350px;
+  margin-right: 70px;
+}
+.img40 {
+  position: relative;
+  height: 466px;
+  width: 100%;
+  left: 0px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+h6 {
+  font-size: 38px;
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  margin-left: 450px;
+  margin-top: -340px;
+}
+.bluee {
+  width: 55px;
+  height: 5px;
+  background-color: #043caa;
+  border-radius: 50px;
+  margin-left: 45%;
+}
+.greenn {
+  width: 51px;
+  height: 5px;
+  background-color: #1bc768;
+  border-radius: 50px;
+  margin-left: 50%;
+  margin-top: -5px;
+}
+.bluee_greenn {
+  margin-top: -80px;
+  margin-left: 430px;
+  margin-bottom: 40px;
+}
+.p_main_end {
+  color: #7a7a7a;
+  font-size: 20px;
+  margin-left: 724px;
+  line-height: 30px;
+}
+.name {
+  color: #043caa;
+  font-size: 20px;
+  margin-left: 724px;
+}
+.img58 {
+  margin-left: 724px;
+  margin-top: 20px;
+}
+/* footer */
+footer {
+  background: #043caa;
+  width: 100%;
+  height: 550px;
+  color:white;
+}
+.footerr {
+  position: relative;
+  height: 350px;
+  max-width: 80%;
+margin: 0 auto;
+}
+.footer_h1{
+  padding-top: 60px;
+}
+.hh1{
+  color:white;
+  font-size: 20px;
+}
+.input2 {
+  width: 100px;
+  height: 45px;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+  color: #7a7a7a;
+  padding-right: 130px;
+  font-size: 14px;
+  outline: none;
+
+}
+.your_name{
+  color: white;
+}
+.header_button2 {
+  outline: none;
+  border: none;
+  position: relative;
+  top: -46.5px;
+  left: 300px;
+  border-radius: 0px 50px 50px 0px;
+  padding: 16px;
+  background: #1bc768;
+  width: 127px;
+  color: white;
 }
