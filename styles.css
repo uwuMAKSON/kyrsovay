@@ -371,5 +371,8 @@ ul {
   padding: 50px;
 }
 li {
+ 
   margin-top: 13px;
 }
+ /* display: flex;
+  flex-direction: column; */
