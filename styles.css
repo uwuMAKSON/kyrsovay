@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
-  font-family: "Roboto", sans-serif;
+  /* font-family:  ; */
   margin: 0;
 }
 .header {
@@ -317,37 +317,24 @@ h6 {
 footer {
   background: #043caa;
   width: 100%;
-  height: 650px;
+  height: 550px;
   color: white;
 }
 .footerr {
   position: relative;
-  height: 350px;
+  height: 550px;
   max-width: 80%;
   margin: 0 auto;
 }
 .footer_h1 {
   padding-top: 60px;
- display: flex;
- flex-direction: column; 
-
 }
 .hh1 {
   color: white;
   font-size: 20px;
 }
-
 .input2 {
-  width: 100px;
-  height: 45px;
-  border-radius: 50px 0px 0px 50px;
-  border: none;
-  color: #7a7a7a;
-  padding-right: 130px;
-  font-size: 14px;
-  outline: none;
   margin-left: 600px;
-  margin-top: -80px;
 }
 .your_name {
   color: white;
@@ -366,7 +353,6 @@ footer {
 }
 .ul_li {
   display: flex;
-  margin-left: 400px;
 }
 ul {
   list-style: none;
@@ -375,5 +361,3 @@ ul {
 li {
   margin-top: 13px;
 }
- /* display: flex;
-  flex-direction: column; */
