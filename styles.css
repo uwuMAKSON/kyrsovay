@@ -328,7 +328,9 @@ footer {
 }
 .footer_h1 {
   padding-top: 60px;
-  /* display: flex; */
+ display: flex;
+ flex-direction: column; 
+
 }
 .hh1 {
   color: white;
