@@ -46,8 +46,8 @@ nav a:hover {
   align-items: center;
   padding: 10px 38px;
   position: absolute;
-  width: 60px;
-  height: 30px;
+  width: 120px;
+  height: 45px;
   left: 1165px;
   top: 21px;
   justify-content: center;
@@ -229,7 +229,7 @@ input {
   float: right;
   margin-top: -290px;
 }
-.img_3 {
+.image_3 {
   margin-top: 90px;
 }
 .img789 {
