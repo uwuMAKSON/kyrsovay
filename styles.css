@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box
+}
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
   /* font-family:  ; */
@@ -327,6 +330,9 @@ footer {
 .footer_h1 {
   padding-top: 60px;
 }
+.footer_h3{
+  
+}
 .hh1 {
   color: white;
   font-size: 20px;
@@ -358,4 +364,4 @@ ul {
 }
 li {
   margin-top: 13px;
-}
+} 
