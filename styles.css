@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box
 }
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
 body {
   /* font-family:  ; */
   margin: 0;
@@ -330,8 +330,9 @@ footer {
 .footer_h1 {
   padding-top: 60px;
 }
-.footer_h3{
-  
+.footer_2{
+  display: flex;
+  flex-direction: column;
 }
 .hh1 {
   color: white;
@@ -339,6 +340,7 @@ footer {
 }
 .input2 {
   margin-left: 600px;
+  margin-top: -80px;
 }
 .your_name {
   color: white;
@@ -357,6 +359,8 @@ footer {
 }
 .ul_li {
   display: flex;
+  margin-left: 400px;
+   margin-top: -205px; 
 }
 ul {
   list-style: none;
@@ -365,4 +369,9 @@ ul {
 li {
   margin-top: 13px;
 } 
+.end_work{
+  text-align: center;
+  font-size: 10px;
+  font-weight: 100;
+}
 @media 
