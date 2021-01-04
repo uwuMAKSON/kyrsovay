@@ -202,6 +202,7 @@ input {
   font-size: 22px;
   color: #043caa;
   margin-top: 130px;
+  max-width: 200px;
 }
 .ul {
   list-style-image: url(./Exclude.png);
@@ -248,6 +249,7 @@ h4 {
   color: #043caa;
   margin: 10% 0 0 0;
   margin-bottom: 40px;
+  max-width: 200px;
 }
 .byke {
   padding-top: 100px;
@@ -260,6 +262,7 @@ h5 {
   color: #043caa;
   margin: 10% 0 0 0;
   margin-bottom: 40px;
+  max-width: 200px;
 }
 .bykee {
   margin-top: 200px;
@@ -310,6 +313,7 @@ h6 {
   font-size: 20px;
   margin-left: 724px;
   line-height: 30px;
+  max-width: 370px;
 }
 .name {
   color: #043caa;
@@ -341,10 +345,14 @@ footer {
 }
 .your_p {
   line-height: 20px;
+  max-width: 200px;
 }
 .hh1 {
   color: white;
   font-size: 20px;
+}
+#hh1_p{
+  max-width: 350px;
 }
 .input2 {
   margin-left: 600px;
@@ -387,7 +395,6 @@ li {
 li_2 {
   font-size: 17px;
 }
-
 h2 {
   font-family: aven;
 }
