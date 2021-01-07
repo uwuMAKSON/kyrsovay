@@ -1,4 +1,7 @@
 @import "./null.css";
+body {
+  overflow-x: hidden;
+}
 ul li a {
   color: white;
 }
@@ -15,10 +18,9 @@ h1 {
 }
 header {
   background-image: url(../img/back.png);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
 }
 nav ul li {
   font-size: 16px;
@@ -212,9 +214,7 @@ footer {
   display: flex;
 }
 .footer__block {
-  padding: 3% 4%;
-}
-.last-input{
+  padding: 3% 8%;
 }
 footer div h2 {
   color: white;
@@ -222,6 +222,7 @@ footer div h2 {
 footer div p {
   max-width: 60%;
   color: white;
+  line-height: 25px;
 }
 .sign-txt h2 {
   font-size: 24px;
@@ -267,5 +268,10 @@ footer div p {
   }
   header form {
     display: none;
+  }
+}
+@media screen and (max-width: 510px) {
+  h3 {
+    font-size: 12px;
   }
 }
