@@ -257,7 +257,8 @@ footer div p {
 
 @media screen and (max-width: 1024px) {
   h1 {
-    font-size: 1.6em;
+    font-size: 1.9em;
+    line-height:100% ;
   }
   .header__content {
     max-width: 70%;
@@ -282,9 +283,8 @@ footer div p {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 705px){
+@media screen and (max-width: 841px){
   .buttonn{
-    display: flex;
-    flex-wrap: wrap;
-  }
+    
+    }
 }
