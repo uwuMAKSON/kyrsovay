@@ -264,7 +264,9 @@ footer div p {
 .d-express h2 {
   padding-bottom: 3%;
 }
-
+.end_p{
+margin-left: 40%;
+}
 @media screen and (max-width: 1300px){
   .man_png{
     display: none;
