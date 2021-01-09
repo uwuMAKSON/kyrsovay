@@ -228,6 +228,8 @@ footer {
 .footer__block {
   padding: 3% 8%;
 }
+
+
 footer div h2 {
   color: white;
 }
@@ -266,7 +268,26 @@ footer div p {
 }
 .end_p{
 margin-left: 40%;
-margin-top: 1%;
+margin-top: 3.5%;
+}
+.last-input {
+  background-color: #dee9ff;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding-left: 25px;
+  color: #7a7a7a;
+  width: 300px;
+  font-size: 16px;
+}
+.last-btn{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 16px;
+  width: 140px;
+  background-color: #1bc768;
+  color: white;
+  padding: 16px;
+
 }
 @media screen and (max-width: 1300px){
   .man_png{
