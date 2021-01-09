@@ -246,7 +246,9 @@ footer div p {
 .d-express {
   max-width: 30%;
 }
-
+.li_list{
+  font-size: 21px;
+}
 .last__list ul li {
   line-height: 40px;
   color: white;
