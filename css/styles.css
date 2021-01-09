@@ -48,6 +48,7 @@ nav ul {
   margin-top: -10px;
   color: white;
   font-size: 17px;
+margin-bottom: 1px;
 }
 .header__content {
   padding: 2% 6%;
@@ -96,7 +97,7 @@ form img {
   transform: translate(40px, 3px);
   width: 17px;
   height: 17px;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 .inp-btn {
   border-top-right-radius: 25px;
@@ -258,7 +259,11 @@ footer div p {
 .last__ul {
   padding-left: 50%;
 }
-
+@media screen and (max-width: 1300px){
+  .man_png{
+    display: none;
+  }
+}
 @media screen and (max-width: 1024px) {
   h1 {
     font-size: 1.9em;
@@ -287,7 +292,4 @@ footer div p {
     font-size: 16px;
   }
 }
-/* @media screen and (max-width: 841px) {
-  .buttonn {
-  }
-} */
+
