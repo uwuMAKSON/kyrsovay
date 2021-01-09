@@ -187,7 +187,6 @@ h6 {
   font-size: 36px;
   font-weight: bold;
 }
-
 .chemists {
   display: flex;
   text-align: center;
@@ -256,9 +255,11 @@ footer div p {
   display: flex;
   margin-left: 20%;
 }
-
 .last__ul {
   padding-left: 50%;
+}
+.d-express h2 {
+  padding-bottom: 4%;
 }
 @media screen and (max-width: 1300px){
   .man_png{
