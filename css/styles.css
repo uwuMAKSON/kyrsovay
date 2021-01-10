@@ -268,7 +268,7 @@ footer div p {
 }
 .end_p{
 margin-left: 40%;
-margin-top: 3.5%;
+margin-top: 5.5%;
 }
 .last-input {
   background-color: #dee9ff;
@@ -288,6 +288,12 @@ margin-top: 3.5%;
   color: white;
   padding: 16px;
 
+}
+form p {
+  margin-bottom: 5%;
+}
+.form_two{
+  display: flex;
 }
 @media screen and (max-width: 1300px){
   .man_png{
