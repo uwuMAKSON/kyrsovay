@@ -294,7 +294,9 @@ margin-top: 5.5%;
   display: flex;
   margin-top: 5%;
 }
-
+form p {
+  margin-top: -10%;
+}
 
 
 @media screen and (max-width: 1300px){
