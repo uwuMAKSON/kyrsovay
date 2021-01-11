@@ -356,12 +356,47 @@ margin-right: 23%;
     font-size: 16px;
   }
 }
-@media screen and (max-width: 825px){
+@media screen and (max-width: 830px){
   .first__card.card{
     display: flex;
     flex-direction: column;
   }
   .card-description {
     margin-left: 25%;
+  }
+  .img_card {
+width: 45%;
+margin-left: 25%;
+  }
+  .second__card.card{
+    display: flex;
+    flex-direction: column;
+  }
+  .third__card.card{
+    display: flex;
+    flex-direction: column;
+  }
+  .imggg{
+    width: 45%;
+    margin-left:25%;
+  }
+}
+@media screen and (max-width: 1025px){
+  .chemists{
+  display: flex;flex-direction: column;
+}
+.tablet{
+  margin-left: 25%;
+}
+}
+@media screen and (max-width: 735px){
+.tablet{
+  margin-left: -15%;
+}
+}
+@media screen and (max-width: 1175px){
+  .input__block{
+    display: flex;
+    flex-direction: column;
   }
 }
