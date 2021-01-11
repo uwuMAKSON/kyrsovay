@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box
+}
 @import "./null.css";
 body {
   overflow-x: hidden;
