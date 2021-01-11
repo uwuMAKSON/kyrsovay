@@ -129,7 +129,7 @@ h2 {
 }
 .man_png {
   background-image: url(../img/man.png);
-  /* background-position: center; */
+  background-position: center; 
   background-size: cover;
   width: 35%;
   height: 79.2%; 
