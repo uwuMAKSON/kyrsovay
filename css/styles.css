@@ -307,21 +307,20 @@ form p {
     display: none;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
   h1 {
     font-size: 1.9em;
     line-height: 100%;
   }
   .header__content {
-    max-width: 70%;
-    height: 60%;
+    max-width: 90%;
+    height: 90%;
   }
   .link__btn {
     width: 100px;
     height: 33px;
   }
 }
-
 @media screen and (max-width: 510px) {
   h3 {
     font-size: 16px;
