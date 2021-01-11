@@ -296,8 +296,8 @@ margin-top: 5.5%;
 }
 form p {
   margin-top: -10%;
+  /* margin-right: -16%; */
 }
-
 
 @media screen and (max-width: 1300px){
   .man_png{
