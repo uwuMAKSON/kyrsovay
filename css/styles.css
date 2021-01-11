@@ -330,15 +330,17 @@ float: right;
 margin-right: 23%;
   }
 }
-@media screen and (max-width: 510px) {
-  h3 {
-    font-size: 16px;
-  }
-}
 @media screen and (max-width: 780px){
   .company__logo{
     display: flex;
     flex-direction: column;
-    
+    width: 40%;
+    height: 250px;
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 510px) {
+  h3 {
+    font-size: 16px;
   }
 }
