@@ -315,6 +315,7 @@ form p {
   .header__content {
     max-width: 90%;
     height: 90%;
+    text-align: center;
   }
   .link__btn {
     width: 100px;
