@@ -241,11 +241,11 @@ footer div h2 {
   color: white;
 }
 footer div p {
-  max-width: 100%;
+  max-width: 60%;
   color: white;
   line-height: 25px;
-  font-size: 1em;
 }
+
 .sign-txt h2 {
   font-size: 24px;
 }
@@ -458,4 +458,9 @@ form p {
   margin: 0 auto;
   text-align: center;
 }
+footer div p{
+  font-size: 1em;
+  max-width: 60%;
+} 
+
 }
