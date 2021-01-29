@@ -551,12 +551,13 @@ form p {
   }
 
   .d-express {
-    max-width: 100%;
     padding-bottom: 50px;
+    margin-left: 20px;
+    max-width: 90%;
   }
 
   .d-express h2 {
-    font-size: 24px;
+    font-size: 23px;
     margin-top: 50px;
   }
 
@@ -585,51 +586,96 @@ form p {
 
   .last__list ul li {
     font-size: 17px;
-    
+
 
   }
-  .sign-txt{
-    margin-top:40px ;
+
+  .sign-txt {
+    margin-top: 40px;
     margin-bottom: 40px;
   }
-  .form_two p{
+
+  .form_two p {
     display: none;
   }
-  .client-h6{
+
+  .client-h6 {
     font-size: 28px;
   }
-  .last-name{
+
+  .last-name {
     font-size: 22px;
   }
-  .points{
+
+  .points {
     width: 60px;
   }
-  .get-btn{
+
+  .get-btn {
     width: 180px;
   }
-  h5{
+
+  h5 {
     font-size: 22px;
     max-width: none;
   }
-  form{
-    
-  }
+
+  form {}
+
   /* .card__place{
     margin-right: 50px;
   } */
-  .imggg{
+  .imggg {
     margin: 40px auto;
     width: 270px;
   }
-  .imgg{
+
+  .imgg {
     margin: 40px auto;
     width: 300px;
-    
+    padding-bottom: 50px;
   }
-  .img_card{
+
+  .img_card {
     width: 280px;
     margin: 40px auto;
   }
-  .card-description{
+
+  .card-description {
     margin: 0 auto;
+
+  }
+
+  .second__card.card {
+    margin-right: 45px;
+  }
+
+  h3.logo {
+    font-size: 21px;
+  }
+
+  @media screen and (max-width: 550px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .login__btn {
+      margin-top: 20px;
+      margin-left: 35%;
+    }
+
+    h3.logo {
+      margin-bottom: 20px;
+    }
+
+    p.header__p {
+      max-width: 300px;
+      margin-left: 40px;
+    }
+
+    form img {
+      margin-top: 13px;
+    }
+
   }
