@@ -620,8 +620,6 @@ form p {
     max-width: none;
   }
 
-  form {}
-
   /* .card__place{
     margin-right: 50px;
   } */
@@ -678,4 +676,7 @@ form p {
       margin-top: 13px;
     }
 
-  }
+    .link__btn {
+      margin: 5px;
+      margin-left: 25%;
+    }
