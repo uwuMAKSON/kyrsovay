@@ -500,10 +500,10 @@ form p {
 
 @media screen and (max-width: 600px) {
   nav li a {
-    font-size: 16px;
+    font-size: 14px;
     max-width: 200px;
     text-align: center;
-    padding: 0 10px;
+ 
     
   }
 }
