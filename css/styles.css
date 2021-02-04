@@ -154,14 +154,11 @@ h2 {
 }
 
 .man_png {
-  background-image: url(../img/man.png);
-  background-position: center;
-  background-size: cover;
-  width: 35%;
-  height: 79.2%;
   float: right;
-  margin-top: -33%;
-  margin-right: 11%;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  bottom: 434px;
 }
 
 /* main */
@@ -512,9 +509,10 @@ form p {
   .buttonn {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin:  auto;
+    
   }
 }
 
@@ -675,7 +673,6 @@ form p {
       justify-content: center;
       
     }
-
     .login__btn {
       margin: 0 auto;
       margin-top: 20px;
