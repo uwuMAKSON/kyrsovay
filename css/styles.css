@@ -154,11 +154,12 @@ h2 {
 }
 
 .man_png {
+  width: 35%;
+  height: 79.2%;
   float: right;
-  width: 500px;
-  height: 500px;
-  position: relative;
-  bottom: 434px;
+  margin-top: -33.7%;
+  margin-right: 10%;
+ 
 }
 
 /* main */
@@ -328,6 +329,9 @@ footer div p {
   margin-left: 40%;
   margin-top: 5.5%;
 }
+/* .end__pp{
+  max-width: 200px;
+} */
 
 .last-input {
   background-color: #dee9ff;
